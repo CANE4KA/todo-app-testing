@@ -33,6 +33,7 @@ const TodoForm = ({ setTodos, todos }: Props) => {
 	return (
 		<>
 			<form
+				role='form'
 				onSubmit={handleSubmit(onSubmit)}
 				className='relative flex items-center justify-center gap-5'
 			>

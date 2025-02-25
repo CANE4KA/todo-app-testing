@@ -46,7 +46,12 @@ export const App = () => {
 					completeHandler={completeHandler}
 				/>
 
-				<ActionMenu todos={todos} setFilter={setFilter} setTodos={setTodos} />
+				<ActionMenu
+					todos={todos}
+					filter={filter}
+					setFilter={setFilter}
+					setTodos={setTodos}
+				/>
 			</div>
 		</>
 	)
